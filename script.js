@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
     let confettiButton = document.getElementById("confettiButton");
 
     // Ensure autoplay works
-    audio.volume = 0.5;
+    audio.volume = 0.8;
     audio.play().catch(error => console.log("Autoplay prevented:", error));
 
     // Toggle Play/Pause
